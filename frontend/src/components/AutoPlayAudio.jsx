@@ -20,7 +20,7 @@ function AutoPlayAudio() {
 
   return (
     <div>
-      <audio ref={audioRef} src={song} autoPlay loop muted>
+      <audio ref={audioRef} src={song} autoPlay loop>
         Your browser does not support the audio element.
       </audio>
     </div>
