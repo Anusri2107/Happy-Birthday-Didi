@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import song from "../assets/khoobsurat.mp4";
+import song from "../assets/khoobsurat.mp3";
 
 function AutoPlayAudio() {
   const audioRef = useRef(null);
